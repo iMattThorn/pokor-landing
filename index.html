@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="POKOR — wulkanizacja, wymiana i naprawa opon w Gdańsku.">
+  <title>POKOR | Wulkanizacja i serwis opon w Gdańsku</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.56 2.81.69A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-thumb" viewBox="0 0 24 24"><path d="M7 10v12H3V10h4zm0 10h11.2a2 2 0 0 0 1.94-1.52l1.5-6A2 2 0 0 0 19.7 10H15l1-4a3 3 0 0 0-3-3l-1 4-5 5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#start" aria-label="POKOR — strona główna">
+        <span class="logo-word">POK<span class="logo-wheel"><i></i></span>R</span>
+        <span class="logo-line">Wulkanizacja <b>•</b> Opony <b>•</b> Felgi <b>•</b> Serwis</span>
+      </a>
+      <button class="menu-toggle" aria-label="Otwórz menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav" aria-label="Nawigacja główna">
+        <a class="active" href="#start">Główna</a><a href="uslugi.html">Usługi</a>
+        <a href="o-firmie.html">O firmie</a><a class="nav-disabled" href="#" aria-disabled="true" onclick="return false">Galeria</a><a href="kontakt.html">Kontakt</a>
+      </nav>
+      <a class="header-call" href="tel:+48583468932">
+        <svg><use href="#i-phone"/></svg><span><small>Zadzwoń teraz</small>583 466 39 32</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="start">
+    <section class="hero">
+      <div class="hero-photo" role="img" aria-label="Czarny samochód w nowoczesnym serwisie opon"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">POKOR – TWÓJ SERWIS OPON W GDAŃSKU</p>
+          <h1>Wulkanizacja i serwis<br>opon <span>w Gdańsku</span></h1>
+          <p class="lead">Szybka wymiana opon, naprawa przebić, kontrola ciśnienia<br>i kompleksowa obsługa aut osobowych oraz dostawczych.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:+48583468932"><svg><use href="#i-phone"/></svg>Zadzwoń teraz</a>
+            <a class="btn btn-outline" href="uslugi.html"><svg><use href="#i-grid"/></svg>Sprawdź usługi</a>
+          </div>
+          <div class="trust">
+            <span><svg><use href="#i-check"/></svg>Szybka obsługa</span>
+            <span><svg><use href="#i-shield"/></svg>Doświadczenie</span>
+            <span><svg><use href="#i-thumb"/></svg>Uczciwe ceny</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="uslugi">
+      <div class="container service-grid">
+        <article class="service-card"><div class="service-icon">◉</div><div><h2>Wymiana opon</h2><p>Szybka i profesjonalna wymiana opon sezonowych i całorocznych.</p></div><a href="#kontakt" aria-label="Zapytaj o wymianę opon"><svg><use href="#i-arrow"/></svg></a></article>
+        <article class="service-card"><div class="service-icon">◌</div><div><h2>Naprawa opon</h2><p>Skuteczna naprawa przebić i uszkodzeń opon.</p></div><a href="#kontakt" aria-label="Zapytaj o naprawę opon"><svg><use href="#i-arrow"/></svg></a></article>
+        <article class="service-card"><div class="service-icon">◎</div><div><h2>Wyważanie kół</h2><p>Precyzyjne wyważanie kół dla komfortu i bezpieczeństwa.</p></div><a href="#kontakt" aria-label="Zapytaj o wyważanie kół"><svg><use href="#i-arrow"/></svg></a></article>
+        <article class="service-card"><div class="service-icon van">▰</div><div><h2>Oferta dla firm</h2><p>Obsługa flot i aut dostawczych. Atrakcyjne warunki współpracy.</p></div><a href="#kontakt" aria-label="Zapytaj o ofertę dla firm"><svg><use href="#i-arrow"/></svg></a></article>
+      </div>
+    </section>
+
+    <section class="promo" id="o-firmie">
+      <div class="container promo-box">
+        <div class="promo-badge">%</div>
+        <div class="promo-title"><p>Promocja dla Ciebie!</p><strong>5% rabatu</strong></div>
+        <p class="promo-copy">Wydrukuj opinię lub pokaż ją na telefonie,<br>a otrzymasz <b>5% rabatu</b> na wymianę opon<br>w naszej firmie.</p>
+        <div class="tyres" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </section>
+
+    <section class="gallery" id="galeria" aria-label="Galeria serwisu"></section>
+    <section class="contact" id="kontakt">
+      <div class="container contact-box">
+        <div class="contact-item"><span class="round-icon"><svg><use href="#i-map"/></svg></span><div><h3>POKOR Andrzej Prokopek</h3><p>ul. Kołobrzeska 48F<br>80–391 Gdańsk</p></div></div>
+        <div class="contact-item"><span class="round-icon"><svg><use href="#i-phone"/></svg></span><div><h3>Telefon</h3><p><a href="tel:+48583468932">583 466 39 32</a><br><a href="tel:+48665706565">665 70 65 65</a></p></div></div>
+        <div class="contact-item"><span class="round-icon"><svg><use href="#i-mail"/></svg></span><div><h3>E-mail</h3><p><a href="mailto:pokor.kolo@gmail.com">pokor.kolo@gmail.com</a></p></div></div>
+        <div class="contact-item"><span class="round-icon"><svg><use href="#i-clock"/></svg></span><div><h3>Godziny otwarcia</h3><p>pon. – pt.: 8:00 – 18:00<br>sobota: 9:00 – 14:00</p></div></div>
+      </div>
+    </section>
+  </main>
+  <script>
+    const button = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    button.addEventListener('click', () => {
+      const open = button.getAttribute('aria-expanded') === 'true';
+      button.setAttribute('aria-expanded', String(!open));
+      nav.classList.toggle('open', !open);
+    });
+    nav.addEventListener('click', () => { nav.classList.remove('open'); button.setAttribute('aria-expanded', 'false'); });
+  </script>
+</body>
+</html>
